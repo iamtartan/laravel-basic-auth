@@ -1,9 +1,9 @@
-# Laravel 7+ basic auth component named Separ which means shield in English
+# Separ: Laravel 7+ basic auth component
+> Separ means Shield in English
 
 ![separ](https://images.idgesg.net/images/article/2018/08/7_best-common-defenses_sword_shield_warrior_knight_security-100768046-large.jpg)
 
-> A [HTTP basic auth](https://en.m.wikipedia.org/wiki/Basic_access_authentication) middleware for Laravel.
-
+## How it's working?
 ```php
 // Use on your routes.
 Route::get('/', ['middleware' => 'separ'], function () {
@@ -80,6 +80,19 @@ Then copy and paste the hashed credentials to the `.env` environment file.
 SEPAR_USER=your-hashed-user
 SEPAR_PASSWORD=your-hashed-password
 ```
+
+## Team
+
+This component is developed by the following person(s) and a bunch of [awesome contributors](https://github.com/iamtartan/laravel-online-payment/graphs/contributors).
+
+[![Aboozar Ghaffari](https://avatars2.githubusercontent.com/u/502961?v=3&s=130)](https://github.com/iamtartan) 
+--- |
+[Aboozar Ghaffari](https://github.com/iamtartan)
+
+
+## Support This Project
+
+Please contribute in package completion. This is the best support.
 
 ## License
 
