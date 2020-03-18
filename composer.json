@@ -1,0 +1,57 @@
+{
+    "name": "tartan/separ",
+    "description": "A HTTP basic auth middleware for Laravel 7+",
+    "keywords": [
+        "laravel",
+        "http",
+        "basic",
+        "auth",
+        "basic-auth",
+        "middleware",
+        "separ",
+        "shield"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aboozar Ghaffari",
+            "email": "aboozar.ghf@gmail.com",
+            "homepage": "https://github.com/iamtartan/laravel-basic-auth"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5",
+        "illuminate/support": "^7.0",
+        "symfony/http-kernel": "^5.0"
+    },
+    "require-dev": {
+        "graham-campbell/analyzer": "^2.3",
+        "graham-campbell/testbench": "^5.3",
+        "phpunit/phpunit": "^8.5"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "7.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Tartan\\Separ\\SeparServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Tartan\\Separ\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tartan\\Tests\\Separ\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
